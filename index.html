@@ -11,10 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 <script>
 const SITE_SETTINGS = {
-  'phoneNumber': '+79185855731',
+  'phoneNumber': '+79034551278',
   'telegramEnabled': 1,
-  'telegramNickname': 'Dana17_magiya',
-  'psychicName': 'Алёна Владимировна',
+  'telegramNickname': 'mag_taro8',
+  'psychicName': 'Ася',
   'city': 'Санкт-Петербург',
   'address': 'г. Санкт-Петербург, наб. Реки Фонтанки, д. 83, офис 12',
   'enableRedirect': false,
@@ -29,7 +29,7 @@ const SITE_SETTINGS = {
   'footerTitle': 'Советник',
   'metrikaMessengerVisible': false
 };
-const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'';
+const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Ася';
 const PHONE_DIGITS=(SITE_SETTINGS.phoneNumber||'').replace(/\D/g,'');
 const WHATSAPP_MESSAGE=PSYCHIC_NAME ? `Здравствуйте, ${PSYCHIC_NAME}! Хочу обратиться к вам за помощью.` : 'Здравствуйте, хочу обратиться к вам за помощью.';
 const TELEGRAM_MESSAGE=WHATSAPP_MESSAGE;
@@ -568,7 +568,7 @@ footer{background:#05050a;padding:40px 0;text-align:center;border-top:1px solid 
 </div>
 <div class="hero-grid">
 <div>
-<span class="badge">🔮 Ясновидящая с наследственным даром • 21 год практики</span>
+<span class="badge">🔮 Ася с наследственным даром • 21 год практики</span>
 <h1>Ясновидение и Таро: возвращаю любовь и очищаю от порчи</h1>
 <p style="font-size:clamp(1.1rem,2.5vw,1.25rem);color:#f5f5f7;font-weight:500">Потомственная ясновидящая с 21-летним опытом, веду работу через Таро, северные наговорные практики и родовые традиции. Специализируюсь на магии любви и снятии негатива — возвращаю любимых, чищу от порчи, сглаза и родовых проклятий, убираю соперниц и восстанавливаю семейную гармонию. Провожу проверку по фото и картам, использую мягкие привороты без вреда и откатов, восковые отливки, свечные ритуалы. Лично веду каждого клиента: ежедневные детальные отчёты с фото свечей и голосовыми сообщениями в WhatsApp и Telegram, на связи 24/7 до полного результата. За 21 год помогла 2800+ людям обрести любовь и защиту. Веду работу честно и деликатно отношусь к вашей конфиденциальности.</p>
 <div class="trust-grid">
@@ -1225,7 +1225,7 @@ function setupReveal(){
 }
 
 function setImagesAndTexts(){
-    const psychicName = SETTINGS.psychicName || 'Ясновидящая';
+    const psychicName = SETTINGS.psychicName || 'Ася';
     const heroName = document.getElementById('heroName');
     if (heroName){
         const titleEl = heroName.querySelector('.psychic-name-title');
